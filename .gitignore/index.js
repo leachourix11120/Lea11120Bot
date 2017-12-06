@@ -12,7 +12,7 @@ bot.on("ready", function(){
     console.log("Le bot a bien été connecté");
 })
 
-bot.login(process.env.TOKEN);
+bot.login("Mzc0OTM1Mjc5OTA5NDcwMjA5.DQltMA.DIWKJFUqi0dEDCPv8ZsNbv_szgM");
 
 bot.on("message", message => {
     if (message.content === "ping"){
